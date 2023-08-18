@@ -40,7 +40,7 @@ main{
 }
 .start_box{
     position: absolute;
-    width: 123px;
+    width: 185px;
     height: 48px;
     left: calc(50% - 123px/2 - 0.5px);
     top: calc(50% - -300px/2 - 0.5px);
