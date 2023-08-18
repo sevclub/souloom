@@ -19,18 +19,9 @@ main{
     width: 703px;
     height: 100px;
     left: calc(50% - 703px/2);
-    top: calc(50% - 100px/2 - 105px);
-    font-family: 'NewYork';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 180px;
-    line-height: 100px;
-    /* identical to box height, or 56% */
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #181924;
+    top: calc(50% - 100px/2 - 122px);
 }
+
 .another_you_text{
     position: absolute;
     width: 733px;
@@ -53,7 +44,6 @@ main{
     
 }
 
-
 .start_text{
     font-family: 'Roboto Serif';
     font-style: normal;
@@ -64,21 +54,4 @@ main{
     align-items: center;
     text-align: center;
     color: #FFFFFF;
-}
-
-body, html {
-    height: 100%;
-    margin: 0;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
-}
-
-.character {
-    position: absolute;
-    width: 100px;
-    transition: all 2s linear;
-}
-
-.character img {
-    width: 100%;
 }
