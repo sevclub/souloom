@@ -7,7 +7,7 @@ body{
 }
 
 main{
-    background-image: url('souloom/img/background.svg');
+    background-image: url('https://github.com/sevclub/souloom/blob/main/img/background.svg');
     display: flex;
     width: 100%;
     height: 100%;
