@@ -19,6 +19,9 @@ function attachStartButtonListener(){
   }
 }
 
-
-
+document.addEventListener('DOMContentLoaded', function() {
+  setTimeout(function() {
+      document.querySelector('.start_box').style.opacity = '1';
+  }, 2000);
+});
 
