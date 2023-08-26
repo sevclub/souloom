@@ -5,7 +5,11 @@ disPlay()
 function disPlay(){
   buttonElement.innerHTML=startButton
   attachStartButtonListener();
+  setTimeout(function() {
+    document.querySelector('.start_box').style.opacity = '1';
+}, 500);
 }
+
 
 function attachStartButtonListener(){
   const startBtn = document.querySelector('.js-start-button');
@@ -18,10 +22,3 @@ function attachStartButtonListener(){
     })
   }
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-  setTimeout(function() {
-      document.querySelector('.start_box').style.opacity = '1';
-  }, 2000);
-});
-
