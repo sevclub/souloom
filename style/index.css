@@ -47,6 +47,12 @@ main{
     cursor: pointer;
 }
 
+.start_box {
+    opacity: 0; 
+    transition: opacity 2s ease-in-out; 
+}
+
+
 .coming_box{
     position: absolute;
     width: 190px;
@@ -68,9 +74,8 @@ main{
     display: flex;
     justify-content: center;
     position: absolute;
-   
     left: calc(0%);
-    top: calc(60%);
+    top: calc(65%);
     right: 0;
     z-index: 1;
  
@@ -84,7 +89,21 @@ main{
         transform: translateY(35%);
     }
 
-
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateY(1%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
+    
+    .carton-body {
+        animation: appear 2s ease-in-out forwards; ;
+    }
+    
 
 
 
