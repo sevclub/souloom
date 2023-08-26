@@ -1,25 +1,26 @@
-body{
+body,html{
     background-color: #F7F5EF;
     padding: 0;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     position: relative;
 }
 
 main{
-    background-image: url('https://raw.githubusercontent.com/sevclub/souloom/main/img/background.svg');
+    background-image: url('/html/souloom/img/background.svg');
     display: flex;
     width: 100%;
     height: 100%;
    
 }
 
+
 .logo_text{
     position: absolute;
     width: 703px;
     height: 100px;
     left: calc(50% - 703px/2);
-    top: calc(50% - 100px/2 - 122px);
+    top: calc(40% - 100px/2 - 122px);
 }
 
 .another_you_text{
@@ -27,31 +28,63 @@ main{
     width: 733px;
     height: 100px;
     left: calc(50% - 733px/2);
-    top: calc(50% - 100px/2 + 30px);
+    top: calc(40% - 100px/2 + 30px);
 }
 .start_box{
     position: absolute;
-    width: 190px;
+    width: 123px;
     height: 48px;
     left: calc(50% - 123px/2 - 0.5px);
-    top: calc(50% - -300px/2 - 0.5px);
-    background: #181924;
-    border-radius: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    
-}
-
-.start_text{
+    top: calc(40% - -300px/2 - 0.5px);
     font-family: 'Roboto Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 100px;
-    display:inline ;
-    align-items: center;
-    text-align: center;
     color: #FFFFFF;
+    background: #181924;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
 }
+
+.coming_box{
+    position: absolute;
+    width: 190px;
+    height: 48px;
+    left: calc(50% - 190px/2 - 0.5px);
+    top: calc(40% - -300px/2 - 0.5px);
+    font-family: 'Roboto Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #181924;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.carton-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+   
+    left: calc(0%);
+    top: calc(60%);
+    right: 0;
+    z-index: 1;
+ 
+}
+
+
+.carton-body {
+        height: 150px;
+        width: 100px;
+        cursor: pointer;
+        transform: translateY(35%);
+    }
+
+
+
+
+
